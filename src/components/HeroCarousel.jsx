@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { imagePath } from '../utils/images';
 import '../styles/components.css';
 
 export default function HeroCarousel({ slides }) {
@@ -25,7 +26,7 @@ export default function HeroCarousel({ slides }) {
             className={`hero-slide ${index === current ? 'active' : ''}`}
             aria-hidden={index !== current}
           >
-            <img src={slide.image} alt={slide.title} />
+            <img src={imagePath(slide.image)} alt={slide.title} />
             <div className="hero-overlay">
               <div className="hero-caption">
                 <h2>{slide.title}</h2>
@@ -66,7 +67,7 @@ export function PastEventsGrid({ events }) {
       {events.map((event) => (
         <Link key={event.slug} to={`/post/${event.slug}`} className="past-event-card">
           <div className="past-event-image">
-            <img src={event.image} alt="" loading="lazy" />
+            <img src={imagePath(event.image)} alt="" loading="lazy" />
           </div>
           <p className="past-event-title">{event.title}</p>
         </Link>

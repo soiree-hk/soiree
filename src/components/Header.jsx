@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { navItems } from '../data/navigation';
+import { imagePath } from '../utils/images';
 import '../styles/header.css';
 
 export default function Header() {
@@ -16,7 +17,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-top">
         <Link to="/" className="logo-link" onClick={() => setMobileOpen(false)}>
-          <img src="/images/logo.jpg" alt="SOIRÉE" className="logo-img" />
+          <img src={imagePath('images/logo.jpg')} alt="SOIRÉE" className="logo-img" />
           <span className="logo-text">Society of Interdisciplinary Research</span>
         </Link>
       </div>

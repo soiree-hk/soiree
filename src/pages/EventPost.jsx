@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import events from '../data/events.json';
+import { imagePath } from '../utils/images';
 
 export default function EventPost() {
   const { slug } = useParams();
@@ -30,7 +31,7 @@ export default function EventPost() {
         <h1 style={{ marginTop: '1.5rem', marginBottom: '1rem' }}>{event.title}</h1>
         <p className="post-meta">{event.pubDate} · {event.category}</p>
         <div className="post-hero">
-          <img src={event.image} alt={event.title} />
+          <img src={imagePath(event.image)} alt={event.title} />
         </div>
         <div className="post-content">{content}</div>
       </div>

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { imagePath } from '../utils/images';
 import '../styles/footer.css';
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/images/logo.jpg" alt="SOIRÉE" />
+            <img src={imagePath('images/logo.jpg')} alt="SOIRÉE" />
             <p>Promoting interdisciplinary activities across continents</p>
           </div>
 

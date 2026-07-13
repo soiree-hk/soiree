@@ -1,4 +1,5 @@
 import Nast2023SubPage from './Nast2023SubPage';
+import { imagePath } from '../../utils/images';
 
 const photos = [
   '/images/971def_6538d16c4c03415ab20e452f992462cf.jpg',
@@ -20,7 +21,7 @@ export default function Nast2023Photos() {
     <Nast2023SubPage title="Photos">
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1rem' }}>
         {photos.map((src, i) => (
-          <img key={i} src={src} alt={`2023 NAST event photo ${i + 1}`} style={{ width: '100%', borderRadius: '4px' }} loading="lazy" />
+          <img key={i} src={imagePath(src)} alt={`2023 NAST event photo ${i + 1}`} style={{ width: '100%', borderRadius: '4px' }} loading="lazy" />
         ))}
       </div>
     </Nast2023SubPage>

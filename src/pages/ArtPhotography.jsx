@@ -1,4 +1,5 @@
 import { artPhotography } from '../data/centers';
+import { imagePath } from '../utils/images';
 import '../styles/gallery.css';
 
 export default function ArtPhotography() {
@@ -8,7 +9,7 @@ export default function ArtPhotography() {
         <h1 className="page-title">Photo Gallery</h1>
         {artPhotography.map((item) => (
           <article key={item.title} className="art-gallery-item">
-            <img src={item.image} alt={item.title} className="art-gallery-image" loading="lazy" />
+            <img src={imagePath(item.image)} alt={item.title} className="art-gallery-image" loading="lazy" />
             <h3>{item.title}</h3>
             <p>{item.content}</p>
           </article>

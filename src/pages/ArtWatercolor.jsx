@@ -1,4 +1,5 @@
 import { artWatercolor } from '../data/centers';
+import { imagePath } from '../utils/images';
 import '../styles/gallery.css';
 
 export default function ArtWatercolor() {
@@ -8,7 +9,7 @@ export default function ArtWatercolor() {
         <h1 className="page-title">Watercolor Painting Gallery</h1>
         {artWatercolor.map((item) => (
           <article key={item.title} className="art-gallery-item">
-            <img src={item.image} alt={item.title} className="art-gallery-image" loading="lazy" />
+            <img src={imagePath(item.image)} alt={item.title} className="art-gallery-image" loading="lazy" />
             <h3>{item.title}</h3>
             <p>{item.content}</p>
           </article>
