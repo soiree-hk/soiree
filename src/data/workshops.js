@@ -1,5 +1,12 @@
 export const workshops = [
   {
+    id: '2026-fob',
+    title: 'Frontier of Biotech: From System Biology to Whole Cell Methodology',
+    date: 'June 2026',
+    path: '/2026-fob',
+    image: '/images/971def_54f5f5f0b25846da8ba5831405d7ee17.png',
+  },
+  {
     id: '2018-gwfmd',
     title: 'Global Workshop on Functional Materials and Devices',
     date: 'January 2018',
@@ -75,4 +82,19 @@ Contact: Mr. Shihong Chen <shihong.chen@connect.ust.hk>`,
     { label: 'Visa & Info', path: '/2023-visa-info' },
     { label: 'Photos', path: '/wk2023-nast-photo' },
   ],
+};
+
+export const fob2026 = {
+  title: 'Frontier of Biotech: From System Biology to Whole Cell Methodology',
+  description: `A workshop entitled "Frontier of Biotech: From System Biology to Whole Cell Methodology" will take place from 28 to 30 June 2026 on the campus of HKUST. This event invites participants to explore the transformative intersection of artificial intelligence and biological research, showcasing AI's potential to revolutionize research efficiency, data analysis, and translational applications. The workshop will demonstrate AI's applications in microbial genomics, metabolic modulation, and whole-cell simulations, providing participants with a better understanding of AI's potential to enhance biological research.`,
+  topics: [
+    'System Biology - Whole Cell',
+    'Synthetic Biology',
+    'Phase Separation',
+    'Biomedical: RNA Fundamental & Therapeutics; Drug Discovery',
+  ],
+  dates: 'June 28 ～ 30, 2026',
+  venue:
+    'Kaisa Group Lecture Theater (IAS LT), Lo Ka Chung Building, Lee Shau Kee Campus, HKUST',
+  moreInfoUrl: 'https://leo3233.github.io/Frontier-of-Biotech/',
 };
