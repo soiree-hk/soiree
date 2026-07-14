@@ -34,6 +34,7 @@ import Nast2023Hotels from './pages/workshops/Nast2023Hotels';
 import Nast2023Registration from './pages/workshops/Nast2023Registration';
 import Nast2023VisaInfo from './pages/workshops/Nast2023VisaInfo';
 import Nast2023Photos from './pages/workshops/Nast2023Photos';
+import Fob2026Home from './pages/workshops/Fob2026Home';
 
 export default function App() {
   return (
@@ -47,6 +48,7 @@ export default function App() {
           <Route path="events" element={<Events />} />
           <Route path="events-dialogs-lectures" element={<DialoguesLectures />} />
           <Route path="workshops" element={<Workshops />} />
+          <Route path="2026-fob" element={<Fob2026Home />} />
           <Route path="centers" element={<Centers />} />
           <Route path="centers/aiforce" element={<AiForce />} />
           <Route path="art-center" element={<ArtCenter />} />
