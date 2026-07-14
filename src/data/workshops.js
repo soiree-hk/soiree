@@ -4,7 +4,7 @@ export const workshops = [
     title: 'Frontier of Biotech: From System Biology to Whole Cell Methodology',
     date: 'June 2026',
     path: '/2026-fob',
-    image: '/images/971def_54f5f5f0b25846da8ba5831405d7ee17.png',
+    image: '/images/2026-fob-frontier-of-biotech.png',
   },
   {
     id: '2018-gwfmd',
