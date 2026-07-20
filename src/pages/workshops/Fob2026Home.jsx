@@ -23,12 +23,6 @@ export default function Fob2026Home() {
         <li>
           <strong>Venue:</strong> {fob2026.venue}
         </li>
-        <li>
-          <strong>Event website:</strong>{' '}
-          <a href={fob2026.moreInfoUrl} target="_blank" rel="noopener noreferrer">
-            {fob2026.moreInfoUrl}
-          </a>
-        </li>
       </ul>
     </WorkshopLayout>
   );

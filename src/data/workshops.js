@@ -14,18 +14,18 @@ export const workshops = [
     image: '/images/2026-viii-hkbiophys.jpg',
   },
   {
-    id: '2018-gwfmd',
-    title: 'Global Workshop on Functional Materials and Devices',
-    date: 'January 2018',
-    path: '/2018-gwfmd',
-    image: '/images/5ae58bc939e44a8c8ac0dcafa8a5eb10.jpg',
-  },
-  {
     id: '2023-nast',
     title: 'Frontier of Nucleic Acids Science and Technology',
     date: 'August 2023',
     path: '/2023-nast',
     image: '/images/971def_54f5f5f0b25846da8ba5831405d7ee17.png',
+  },
+  {
+    id: '2018-gwfmd',
+    title: 'Global Workshop on Functional Materials and Devices',
+    date: 'January 2018',
+    path: '/2018-gwfmd',
+    image: '/images/5ae58bc939e44a8c8ac0dcafa8a5eb10.jpg',
   },
 ];
 
@@ -106,7 +106,6 @@ export const fob2026 = {
   dates: 'June 28 ～ 30, 2026',
   venue:
     'Kaisa Group Lecture Theater (IAS LT), Lo Ka Chung Building, Lee Shau Kee Campus, HKUST',
-  moreInfoUrl: 'https://leo3233.github.io/Frontier-of-Biotech/',
   nav: [
     { label: 'Introduction', path: '/2026-fob' },
     { label: 'General Information', path: '/2026-fob-general-info' },
@@ -132,7 +131,6 @@ We welcome potential sponsors for this non-profit event to contact shihong.chen@
   date: 'January 11, 2026',
   venue: 'LT-G, Lift 25/26, Academic Building, HKUST',
   contactEmail: 'shihong.chen@connect.ust.hk',
-  moreInfoUrl: 'https://leo3233.github.io/VIII-hkbiophys/',
   nav: [
     { label: 'Introduction', path: '/2026-viii' },
     { label: 'Speakers', path: '/2026-viii-speakers' },
