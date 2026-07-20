@@ -7,6 +7,13 @@ export const workshops = [
     image: '/images/2026-fob-frontier-of-biotech.png',
   },
   {
+    id: '2026-viii',
+    title: '8th Symposium on Biophysics Postgraduate Research in Hong Kong',
+    date: 'January 2026',
+    path: '/2026-viii',
+    image: '/images/2026-viii-hkbiophys.jpg',
+  },
+  {
     id: '2018-gwfmd',
     title: 'Global Workshop on Functional Materials and Devices',
     date: 'January 2018',
@@ -86,6 +93,9 @@ Contact: Mr. Shihong Chen <shihong.chen@connect.ust.hk>`,
 
 export const fob2026 = {
   title: 'Frontier of Biotech: From System Biology to Whole Cell Methodology',
+  subtitle:
+    'HKUST | IAS Center for AI for Scientific Discoveries · Department of Chemistry · Division of Life Science',
+  banner: '/images/fob/UST.png',
   description: `A workshop entitled "Frontier of Biotech: From System Biology to Whole Cell Methodology" will take place from 28 to 30 June 2026 on the campus of HKUST. This event invites participants to explore the transformative intersection of artificial intelligence and biological research, showcasing AI's potential to revolutionize research efficiency, data analysis, and translational applications. The workshop will demonstrate AI's applications in microbial genomics, metabolic modulation, and whole-cell simulations, providing participants with a better understanding of AI's potential to enhance biological research.`,
   topics: [
     'System Biology - Whole Cell',
@@ -97,4 +107,39 @@ export const fob2026 = {
   venue:
     'Kaisa Group Lecture Theater (IAS LT), Lo Ka Chung Building, Lee Shau Kee Campus, HKUST',
   moreInfoUrl: 'https://leo3233.github.io/Frontier-of-Biotech/',
+  nav: [
+    { label: 'Introduction', path: '/2026-fob' },
+    { label: 'General Information', path: '/2026-fob-general-info' },
+    { label: 'Speakers', path: '/2026-fob-speakers' },
+    { label: 'Program', path: '/2026-fob-program' },
+    { label: 'Registration', path: '/2026-fob-registration' },
+    { label: 'Committee', path: '/2026-fob-committee' },
+    { label: 'Sponsors', path: '/2026-fob-sponsors' },
+    { label: 'Contact', path: '/2026-fob-contact' },
+    { label: 'Photos', path: '/2026-fob-photos' },
+  ],
+};
+
+export const viii2026 = {
+  title: '8th Symposium on Biophysics Postgraduate Research in Hong Kong',
+  subtitle: 'HKUST | Department of Chemistry',
+  banner: '/images/viii/HKUST-Zoom-BG2.jpg',
+  description: `Welcome to the 8th Symposium on Biophysics Postgraduate Research in Hong Kong. Biophysics is a highly interdisciplinary field, and postgraduate students working in this area come from a variety of departments, including physics, chemistry, and biology. The proposed symposium, the 8th in this series, will provide a valuable platform for postgraduate students, faculty and researchers from diverse academic backgrounds to discuss recent advances in biophysics, exchange research ideas, and foster collaboration and networking. The previous symposia were held at CUHK (2014), HKBU (2016), CityU (2016/17), HKUST (2018), CUHK (2019/20), HKBU (2023/24), and CityU (2024/25). This non-profit event aims to benefit the computational biotech community, and there will be no registration fee for participants.
+
+We are pleased to announce the 8th Symposium on Biophysics Postgraduate Research in Hong Kong, to be held on January 11, 2026 on the HKUST campus. The event will feature keynote lectures by internationally recognized scientists, invited talks from renowned institutions, leading technology enterprises and a poster session with awards for the best student contributions.
+
+We welcome potential sponsors for this non-profit event to contact shihong.chen@connect.ust.hk for partnership inquiries.`,
+  date: 'January 11, 2026',
+  venue: 'LT-G, Lift 25/26, Academic Building, HKUST',
+  contactEmail: 'shihong.chen@connect.ust.hk',
+  moreInfoUrl: 'https://leo3233.github.io/VIII-hkbiophys/',
+  nav: [
+    { label: 'Introduction', path: '/2026-viii' },
+    { label: 'Speakers', path: '/2026-viii-speakers' },
+    { label: 'Program', path: '/2026-viii-program' },
+    { label: 'Registration', path: '/2026-viii-registration' },
+    { label: 'Committee', path: '/2026-viii-committee' },
+    { label: 'Sponsors', path: '/2026-viii-sponsors' },
+    { label: 'Photos', path: '/2026-viii-photos' },
+  ],
 };

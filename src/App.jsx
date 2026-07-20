@@ -35,6 +35,24 @@ import Nast2023Registration from './pages/workshops/Nast2023Registration';
 import Nast2023VisaInfo from './pages/workshops/Nast2023VisaInfo';
 import Nast2023Photos from './pages/workshops/Nast2023Photos';
 import Fob2026Home from './pages/workshops/Fob2026Home';
+import Fob2026GeneralInfo from './pages/workshops/Fob2026GeneralInfo';
+import Fob2026Speakers from './pages/workshops/Fob2026Speakers';
+import Fob2026Program from './pages/workshops/Fob2026Program';
+import Fob2026Registration from './pages/workshops/Fob2026Registration';
+import Fob2026Committee from './pages/workshops/Fob2026Committee';
+import Fob2026Sponsors from './pages/workshops/Fob2026Sponsors';
+import Fob2026Contact from './pages/workshops/Fob2026Contact';
+import Fob2026Photos from './pages/workshops/Fob2026Photos';
+import Fob2026VisaTravel from './pages/workshops/Fob2026VisaTravel';
+import Fob2026Accommodation from './pages/workshops/Fob2026Accommodation';
+import Fob2026Transportation from './pages/workshops/Fob2026Transportation';
+import Viii2026Home from './pages/workshops/Viii2026Home';
+import Viii2026Speakers from './pages/workshops/Viii2026Speakers';
+import Viii2026Program from './pages/workshops/Viii2026Program';
+import Viii2026Registration from './pages/workshops/Viii2026Registration';
+import Viii2026Committee from './pages/workshops/Viii2026Committee';
+import Viii2026Sponsors from './pages/workshops/Viii2026Sponsors';
+import Viii2026Photos from './pages/workshops/Viii2026Photos';
 
 export default function App() {
   return (
@@ -49,6 +67,24 @@ export default function App() {
           <Route path="events-dialogs-lectures" element={<DialoguesLectures />} />
           <Route path="workshops" element={<Workshops />} />
           <Route path="2026-fob" element={<Fob2026Home />} />
+          <Route path="2026-fob-general-info" element={<Fob2026GeneralInfo />} />
+          <Route path="2026-fob-speakers" element={<Fob2026Speakers />} />
+          <Route path="2026-fob-program" element={<Fob2026Program />} />
+          <Route path="2026-fob-registration" element={<Fob2026Registration />} />
+          <Route path="2026-fob-committee" element={<Fob2026Committee />} />
+          <Route path="2026-fob-sponsors" element={<Fob2026Sponsors />} />
+          <Route path="2026-fob-contact" element={<Fob2026Contact />} />
+          <Route path="2026-fob-photos" element={<Fob2026Photos />} />
+          <Route path="2026-fob-visa-travel" element={<Fob2026VisaTravel />} />
+          <Route path="2026-fob-accommodation" element={<Fob2026Accommodation />} />
+          <Route path="2026-fob-transportation" element={<Fob2026Transportation />} />
+          <Route path="2026-viii" element={<Viii2026Home />} />
+          <Route path="2026-viii-speakers" element={<Viii2026Speakers />} />
+          <Route path="2026-viii-program" element={<Viii2026Program />} />
+          <Route path="2026-viii-registration" element={<Viii2026Registration />} />
+          <Route path="2026-viii-committee" element={<Viii2026Committee />} />
+          <Route path="2026-viii-sponsors" element={<Viii2026Sponsors />} />
+          <Route path="2026-viii-photos" element={<Viii2026Photos />} />
           <Route path="centers" element={<Centers />} />
           <Route path="centers/aiforce" element={<AiForce />} />
           <Route path="art-center" element={<ArtCenter />} />
