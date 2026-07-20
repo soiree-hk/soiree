@@ -38,7 +38,7 @@ import Fob2026Home from './pages/workshops/Fob2026Home';
 
 export default function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

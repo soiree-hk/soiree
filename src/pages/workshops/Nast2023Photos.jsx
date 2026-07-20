@@ -14,6 +14,9 @@ const photos = [
   '/images/971def_3195b4129b764b7f82bf69a15bb863b3.jpg',
   '/images/971def_b885bb5c0e3741a9b73d361539bfcb96.jpg',
   '/images/971def_820074ce56f341d19435b298c2c2142f.jpg',
+  '/images/971def_d6502af38b6247d8b42be6afdc668406.jpg',
+  '/images/971def_dc42a2ec13d743cd8f1feb6070d24700.jpg',
+  '/images/971def_ec31b35e59274fc2bc26cfe3196e533e.jpg',
 ];
 
 export default function Nast2023Photos() {
