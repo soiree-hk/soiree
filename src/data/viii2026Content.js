@@ -269,9 +269,9 @@ export const viii2026Content = {
   },
   photos: {
     intro:
-      'Thank you for participating in the 8th Symposium on Biophysics Postgraduate Research in Hong Kong. Please click the button below to view photos from the event:',
-    driveUrl:
-      'https://drive.google.com/drive/folders/1ZDjfu6G0P7E9iUDHAlwH2iDiHR3xQ9wh?usp=sharing',
+      'Thank you for participating in the 8th Symposium on Biophysics Postgraduate Research in Hong Kong. Here are the photo highlights from the event:',
+    list: Array.from({ length: 27 }, (_, i) => `${IMG}/photos/photo-${i + 1}.jpg`),
+    posters: ['p1', 'p2', 'p3', 'p4', 'ps1', 'ps2'].map((name) => `${IMG}/posters/${name}.jpg`),
   },
   venueMap: `${IMG}/venue_map.png`,
   venueMapLink: 'https://publish.ust.hk/univ/maps/Lecture_Theaters.pdf',

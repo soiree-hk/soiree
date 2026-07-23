@@ -1,4 +1,5 @@
 import WorkshopLayout from '../../components/workshop/WorkshopLayout';
+import PhotoGrid from '../../components/workshop/PhotoGrid';
 import { viii2026 } from '../../data/workshops';
 import { viii2026Content } from '../../data/viii2026Content';
 
@@ -7,16 +8,16 @@ export default function Viii2026Photos() {
   return (
     <WorkshopLayout event={viii2026} title="Symposium Photos">
       <p>{photos.intro}</p>
-      <p className="text-center" style={{ margin: '2rem 0' }}>
-        <a
-          className="workshop-button"
-          href={photos.driveUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View Photos
-        </a>
-      </p>
+
+      <h3 className="workshop-section-title">Posters</h3>
+      <PhotoGrid
+        photos={photos.posters}
+        alt="8th Biophysics Symposium poster"
+        fit="contain"
+      />
+
+      <h3 className="workshop-section-title">Event Photos</h3>
+      <PhotoGrid photos={photos.list} alt="8th Biophysics Symposium photo" />
     </WorkshopLayout>
   );
 }
